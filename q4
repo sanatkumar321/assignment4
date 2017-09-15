@@ -1,0 +1,25 @@
+
+#include<iostream>
+using namespace std;
+int even(int a)
+{          
+        if(a%2==0)
+         cout <<a<<" is even";
+        return a;
+}
+int odd(int a)
+{
+	
+	if (a%2!=0)
+	  cout << a<<" is odd";
+	return a;	
+}
+main()
+{
+	int a;
+	cout << "enter a number"<<endl;
+	cin>>a;
+	
+	even(a);
+	odd(a);
+}
