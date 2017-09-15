@@ -1,0 +1,29 @@
+
+#include<iostream>
+using namespace std;
+int max(int a, int b)
+{          
+	if (a>b)
+	cout <<a<<" is maximum"<<endl;
+	else 
+	cout <<b<<" is maximum";
+	return a;
+}
+int min(int a, int b)
+{
+	
+	if (a<b)
+	cout <<a<<" is minimum"<<endl;
+	else 
+	cout <<b<<" is minimum";
+	return a;	
+}
+main()
+{
+	int a,b;
+	cout << "enter two numbers"<<endl;
+	cin>>a;
+	cin>>b;
+	max(a,b);
+	min(a,b);
+}
